@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textFishName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="fish name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout><!--<ImageView
+        android:id="@+id/ivFish"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY" />
+
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="price"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textFishName"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@id/ivFish"
+        android:layout_toRightOf="@id/ivFish"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#666" />
+
+    <TextView
+        android:id="@+id/textType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSize"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/ivFish"
+        android:text="sd"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#666" />-->
