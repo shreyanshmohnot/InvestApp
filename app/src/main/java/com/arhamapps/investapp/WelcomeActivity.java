@@ -83,7 +83,7 @@ public class WelcomeActivity extends AppCompatActivity implements NavigationView
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            Intent obj = new Intent(WelcomeActivity.this, MainActivity.class);
+            Intent obj = new Intent(WelcomeActivity.this, FolioActivity.class);
             startActivity(obj);
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
